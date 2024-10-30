@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "JSON Formatter",
+  "version": "1.0",
+  "description": "格式化 JSON 文件并导出为易读格式的 Chrome 插件",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
