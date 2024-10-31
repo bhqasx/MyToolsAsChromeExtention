@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>JSON Formatter</title>
   <script src="popup.js" defer></script>
 </head>
 <body>
   <h1>JSON Formatter</h1>
+  <div>
+    <label for="itemsPerLine">每行显示数字个数：</label>
+    <input type="number" id="itemsPerLine" min="1" value="5">
+  </div>
   <input type="file" id="jsonFile" accept=".json">
   <button id="formatJson">Format JSON</button>
 </body>
